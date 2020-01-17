@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 
-/*Header*/
+/*HEADER*/
 
 #header {
 	background-color: #CABBB7;
@@ -14,7 +14,6 @@ body {
 	justify-content: space-between;
 	font-size: 200%;
 	padding-left: 15%;
-
 }
 
 #HeaderLogo {
@@ -24,25 +23,24 @@ body {
 	padding-right: 5%;
 }
 
-/*Navigation Bar*/
+/*NAVIGATION BAR*/
 
 nav {
 	background-color: #C65252;
 }
 
-ul {
+#NavBar {
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0;
 	margin-right: 15%;
 }
 
-li {
+#NavBar li {
 	float: right;
-
 }
 
-li a {
+#NavBar li a {
 	text-decoration: none;
 	display: block;
 	padding: 15px;
@@ -52,25 +50,25 @@ li a {
 	font-weight: bold;
 }
 
-/*Heading*/
+/*HEADING*/
 
 #heading {
 	font-size: 500%;
 	margin-bottom: 150px;
 }
 
-/*Article with 3 Pictures*/
+/*ARTICLE WITH 3 PICTURES*/
 
 #Container {
 	align-items: center;
 	width: 90%;
 	margin-left: 5%;
-	font-size: 300%;
 }
 
 .Subtext {
 	margin-top: 0;
-	margin-bottom: 0px;
+	margin-bottom: 0;
+	font-size: 300%;
 }
 
 #Samsung {
@@ -78,10 +76,6 @@ li a {
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
-}
-
-#Samsung img {
-	width: 100%;
 }
 
 #DebitScooter {
@@ -96,7 +90,7 @@ li a {
 	height: auto;
 }
 
-/*Footer*/
+/*FOOTER*/
 
 #FooterLogo {
 	max-width: 15%;
