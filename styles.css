@@ -7,13 +7,13 @@ body {
 
 #header {
 	background-color: #CABBB7;
-	height: 200px;
+	padding: 50px;
 	max-width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	font-size: 150%;
-	padding-left: 10%;
+	font-size: 200%;
+	padding-left: 15%;
 
 }
 
@@ -49,6 +49,7 @@ li a {
 	padding-left: 30px;
 	color: #F0ECEC;
 	font-size: 200%;
+	font-weight: bold;
 }
 
 /*Heading*/
@@ -69,6 +70,7 @@ li a {
 
 .Subtext {
 	margin-top: 0;
+	margin-bottom: 0px;
 }
 
 #Samsung {
@@ -84,23 +86,14 @@ li a {
 
 #DebitScooter {
 	column-count: 2;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
 }
 
 .ColumnImg {
-	width: 800px;
-	height: 445.45px;
-}
-
-#Debit {
-	font-weight: bold;
-	text-align: center;
-	float: left;
-}
-
-#Scooter {
-	font-weight: bold;
-	text-align: center;
-	float: right;
+	width: 100%;
+	height: auto;
 }
 
 /*Footer*/
@@ -116,4 +109,5 @@ li a {
 footer {
 	background-color: #CABBB7;
 	padding: 15px;
+	margin-top: 50px;
 }
