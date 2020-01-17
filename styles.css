@@ -1,0 +1,119 @@
+body {
+	font-family: arial;
+	margin: 0;
+}
+
+/*Header*/
+
+#header {
+	background-color: #CABBB7;
+	height: 200px;
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 150%;
+	padding-left: 10%;
+
+}
+
+#HeaderLogo {
+	float: right;
+	max-width: 20%;
+	height: auto;
+	padding-right: 5%;
+}
+
+/*Navigation Bar*/
+
+nav {
+	background-color: #C65252;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	margin-right: 15%;
+}
+
+li {
+	float: right;
+
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	padding-left: 30px;
+	color: #F0ECEC;
+	font-size: 200%;
+}
+
+/*Heading*/
+
+#heading {
+	font-size: 500%;
+	margin-bottom: 150px;
+}
+
+/*Article with 3 Pictures*/
+
+#Container {
+	align-items: center;
+	width: 90%;
+	margin-left: 5%;
+	font-size: 300%;
+}
+
+.Subtext {
+	margin-top: 0;
+}
+
+#Samsung {
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#Samsung img {
+	width: 100%;
+}
+
+#DebitScooter {
+	column-count: 2;
+}
+
+.ColumnImg {
+	width: 800px;
+	height: 445.45px;
+}
+
+#Debit {
+	font-weight: bold;
+	text-align: center;
+	float: left;
+}
+
+#Scooter {
+	font-weight: bold;
+	text-align: center;
+	float: right;
+}
+
+/*Footer*/
+
+#FooterLogo {
+	max-width: 15%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	background-color: #CABBB7;
+	padding: 15px;
+}
