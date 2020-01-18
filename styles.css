@@ -105,3 +105,32 @@ footer {
 	padding: 15px;
 	margin-top: 50px;
 }
+
+/*Blog*/
+
+.Question {
+	font-weight: bold;
+}
+#QandA {
+	text-align: center;
+}
+
+#QandA h2{
+	margin-bottom: 50px;
+}
+
+/*About me*/
+
+#aboutme {
+	column-count: 2;
+}
+#aboutmetext {
+	text-align: center;
+	font-size: 190%;
+	margin-left: 10%;
+}
+
+#aboutme img {
+	float: right;
+	margin-right: 10%
+}
